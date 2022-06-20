@@ -1,0 +1,25 @@
+.header {
+  &__inner {
+    @include flex-all-sb;
+    align-items: center;
+    padding: 25px;
+  }
+
+  &__link {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    &--request {
+      background-color: var(--primary-color);
+      color: var(--light-color);
+    }
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.burger {
+  @include burger;
+  margin-left: 60px;
+}

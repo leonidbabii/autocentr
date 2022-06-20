@@ -1,0 +1,36 @@
+.steps {
+  padding: 130px 0 160px;
+  &__wrappper {
+    @include flex-all-sb;
+  }
+  &__descr {}
+  &__title {}
+  &__items {}
+  &__item {
+    display: flex;
+  }
+  &__numb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/steps/polygon.svg");
+    background-repeat: repeat;
+    background-size: contain;
+    height: 67px;
+    color: #41456b;
+  }
+  &__item-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--secondary-color);}
+}
+
+
+
+
+
